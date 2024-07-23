@@ -1,0 +1,60 @@
+{
+  "name": "ionic-capacitor",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=18.13.0"
+  },
+  "scripts": {
+    "dev": "ng serve",
+    "ng": "ng",
+    "start": "npm run dev",
+    "build": "ng build",
+    "watch": "ng build --watch",
+    "test": "ng test"
+  },
+  "dependencies": {
+    "@analogjs/content": "^1.6.2",
+    "@analogjs/router": "^1.6.2",
+    "@angular/animations": "^18.1.1",
+    "@angular/common": "^18.1.1",
+    "@angular/compiler": "^18.1.1",
+    "@angular/core": "^18.1.1",
+    "@angular/forms": "^18.1.1",
+    "@angular/platform-browser": "^18.1.1",
+    "@angular/platform-browser-dynamic": "^18.1.1",
+    "@angular/platform-server": "^18.1.1",
+    "@angular/router": "^18.1.1",
+    "@capacitor/android": "^6.1.1",
+    "@capacitor/core": "^6.1.1",
+    "@capacitor/ios": "^6.1.1",
+    "@ionic/angular": "^8.2.5",
+    "@nx/angular": "19.5.1",
+    "front-matter": "^4.0.2",
+    "ionicons": "^7.4.0",
+    "marked": "^5.0.2",
+    "marked-gfm-heading-id": "^3.1.0",
+    "marked-highlight": "^2.0.1",
+    "marked-mangle": "^1.1.7",
+    "mermaid": "^10.9.1",
+    "prismjs": "^1.29.0",
+    "rxjs": "^7.8.1",
+    "tslib": "^2.6.3",
+    "zone.js": "^0.14.8"
+  },
+  "devDependencies": {
+    "@analogjs/platform": "^1.6.2",
+    "@analogjs/vite-plugin-angular": "^1.6.2",
+    "@angular/cli": "^18.1.1",
+    "@angular/compiler-cli": "18.1.1",
+    "@capacitor/cli": "^6.1.1",
+    "@ionic/angular-toolkit": "^11.0.1",
+    "@nx/vite": "19.5.1",
+    "jsdom": "^24.1.0",
+    "nx": "19.5.1",
+    "typescript": "^5.4.5",
+    "vite": "^5.3.3",
+    "vitest": "1.6.0"
+  }
+}
